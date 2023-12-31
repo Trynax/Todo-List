@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;  
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+}
+
+header{
+    padding: 0.8rem;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(90deg, #00B3BB 0%, #00E6AA 100%);
+    color: white;
+}

@@ -1,3 +1,3 @@
-// Your JavaScript logic for the todolist
-// Example:
-console.log('Hello from index.js!');
+import './styles.css';
+
+console.log("Hello World")
