@@ -4,14 +4,43 @@
     box-sizing: border-box;
 }
 
-html{
-    font-size: 16px;
-}
+    :root {
+        font-family: 'Alata', sans-serif;
+        font-size: 16px;
+        --bgColor1: #15202b;
+        --bgColor2: #192734;
+        --bgColor3: #22303c;
+        --bgColorPopUp: #273746;
+        --textColor: #eaebec;
+        --accent: #2abd67;
+        --accentDark: #1f8d4d;
+    }
+
+    body{
+        background-color: #ececec;
+    }
 
 header{
     padding: 0.8rem;
     display: flex;
     justify-content: center;
-    background: linear-gradient(90deg, #00B3BB 0%, #00E6AA 100%);
-    color: white;
+    color: var(--textColor);
+    border-bottom: 2px solid var(--accent);
+}
+header > h1{
+    color: #374958;
+}
+
+.tilte-span{
+    color: var(--accent);
+}
+
+nav{
+    position:fixed;
+    bottom: 0;
+    height: calc(100vh - 62.25px);
+    width: 15%;
+    bottom: 0;
+    border-top: 2px solid var(--accent);
+    background-color: white;
 }
