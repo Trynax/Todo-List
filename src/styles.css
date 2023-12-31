@@ -11,7 +11,7 @@
         --bgColor2: #192734;
         --bgColor3: #22303c;
         --bgColorPopUp: #273746;
-        --textColor: #eaebec;
+        --textColor: #374958;
         --accent: #2abd67;
         --accentDark: #1f8d4d;
     }
@@ -39,8 +39,42 @@ nav{
     position:fixed;
     bottom: 0;
     height: calc(100vh - 62.25px);
-    width: 15%;
+    width:20%;
     bottom: 0;
     border-top: 2px solid var(--accent);
     background-color: white;
+    padding: 1rem 1rem;
+}
+
+section > h2{
+    font-size: 1rem;
+    color: var(--textColor);
+    margin-bottom: 0.5rem;
+}
+
+hr{
+    border: 1px solid var(--bgColor2);
+}
+
+
+.task-type{
+    list-style: none;
+    padding: 0.5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+}
+
+.task-type > li > a{
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--textColor);
+    padding: 0.5rem;
+
+}
+
+
+
+.task-type > li:hover{
+    background-color: rgb(238, 237, 237);
 }
