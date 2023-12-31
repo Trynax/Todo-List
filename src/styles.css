@@ -44,6 +44,9 @@ nav{
     border-top: 2px solid var(--accent);
     background-color: white;
     padding: 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
 }
 
 section > h2{
@@ -71,10 +74,20 @@ hr{
     color: var(--textColor);
     padding: 0.5rem;
 
+
 }
 
 
 
 .task-type > li:hover{
     background-color: rgb(238, 237, 237);
+    border-radius: 0.1rem;
+}
+
+
+.content{
+    position: relative;
+    width: 80%;
+    left: 20%;
+    padding: 3rem;
 }
