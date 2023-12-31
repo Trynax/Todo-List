@@ -100,3 +100,63 @@ hr{
     color: white;
     border-radius: .1rem;
 }
+
+.add-projec-btn{
+
+}
+
+.Project-sec{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+}
+
+.Project-sec{
+    padding: 0.5rem 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+
+.add-project-card{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    align-items: center;
+}
+
+.project-btns{
+    display: flex;
+    justify-content: center;
+    gap: .5rem;
+}
+
+.cancel-btn, .add-btn{
+   width: 3rem;
+   color: white;
+   border: none;
+   border-radius: .2rem;
+   padding: .3rem 0;
+
+}
+
+.cancel-btn{
+    background-color: red;
+}
+
+.add-btn{
+    background-color: var(--accent);
+}
+
+.add-project-card > input{
+  border: 2px solid black;
+}
+.add-project-card > input:focus{
+  border: 2px solid black;
+}
+
+.input-project:focus{
+    border: 4px solid red;
+}
