@@ -52,8 +52,12 @@ nav{
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
+    min-width: 180px;
 }
 
+section{
+    width: 100%;
+}
 section > h2{
     font-size: 1rem;
     color: var(--textColor);
@@ -71,6 +75,7 @@ hr{
     display: flex;
     flex-direction: column;
     gap: 0.7rem;
+
 }
 
 .task-type > li > a{
@@ -86,7 +91,9 @@ hr{
 
 .task-type > li:hover{
     background-color: rgb(238, 237, 237);
+    opacity: 0.9;
     border-radius: 0.1rem;
+   
 }
 
 
@@ -254,3 +261,32 @@ input[type=text], textarea, input[type=date] {
         padding: 0.2rem;
         border-radius: .5rem;
     }
+
+
+    .task-cartegory{
+        display: flex;
+        align-items: center;
+    }
+
+    .task-cartegory > img{
+        width: 30px;
+    }
+
+.selected{
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+    border-left: solid 3px var(--accent) !important;
+    background-color: #2abd6770;
+}
+
+li{
+    cursor: pointer;
+}
+.selected:hover{
+  background-color: #2abd6770;
+  opacity: 0.9;
+}
+
+.task-cartegory{
+    padding-left: 0.4rem;
+}
